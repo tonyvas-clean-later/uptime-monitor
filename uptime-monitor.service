@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor system uptime
+
+[Service]
+# Replace with path to monitor
+# ExecStart=/usr/bin/python3 /path/to/uptime-monitor/main.py
+
+[Install]
+WantedBy=multi-user.target
